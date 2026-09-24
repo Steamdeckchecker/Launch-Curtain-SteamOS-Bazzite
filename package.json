@@ -1,46 +1,8 @@
 {
-  "name": "decky-launch-curtain",
-  "version": "2.5.2",
-  "description": "A Decky Loader plugin for Windows that hides messy PC launch moments behind a simple console-style loading screen.",
-  "type": "module",
-  "scripts": {
-    "build": "rollup -c",
-    "build:local": "node tools/build-local.mjs",
-    "package:win": "powershell -NoProfile -ExecutionPolicy Bypass -File ./package-win.ps1",
-    "watch": "rollup -c -w",
-    "test": "tsc --noEmit"
-  },
-  "keywords": [
-    "decky",
-    "plugin",
-    "steam",
-    "windows",
-    "big-picture",
-    "launcher"
-  ],
-  "author": "Andrea Sgarro (ZazaMastro)",
+  "name": "decky-launch-curtain-steamos",
+  "version": "1.0.7",
+  "description": "SteamOS-native Launch Curtain for Decky Loader with Steam and non-Steam shortcut artwork resolution.",
+  "author": "SteamDeckChecker",
   "license": "MIT",
-  "devDependencies": {
-    "@decky/rollup": "^1.0.2",
-    "@decky/ui": "^4.11.0",
-    "@types/react": "19.1.1",
-    "@types/react-dom": "19.1.1",
-    "@types/webpack": "^5.28.5",
-    "react-router": "^7.14.2",
-    "rollup": "^4.53.3",
-    "typescript": "^5.6.2"
-  },
-  "dependencies": {
-    "@decky/api": "^1.1.3",
-    "react-icons": "^5.3.0",
-    "tslib": "^2.7.0"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "react",
-        "react-dom"
-      ]
-    }
-  }
+  "type": "module"
 }

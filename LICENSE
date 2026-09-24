@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2026 Andrea Sgarro (ZazaMastro)
+Copyright (c) 2026 Andrea Sgarro (LoZazaMastro)
+Copyright (c) 2026 Steam Deck Checker - SteamOS port additions
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,28 +20,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Third-party iiSU / iiDB content notice
-------------------------------------
-The MIT License above applies to Launch Curtain's own software and documentation.
-Artwork, Soundbites, metadata, and other content retrieved at runtime from the iiSU
-Database (iiDB) are not relicensed by Launch Curtain. They remain subject to the
-iiSU Network terms published at:
-
-https://iisu.network/license
-
-Launch Curtain includes an integration with iiDB but does not bundle or claim
-ownership of iiSU Network database content.
-
-
-Third-party SteamGridDB content notice
-----------------------------------------------------
-The MIT License above applies to Launch Curtain's own software and documentation.
-Hero artwork and metadata retrieved at runtime from SteamGridDB are third-party
-content and are not relicensed by Launch Curtain. SteamGridDB access is subject to
-the service terms published at:
-
-https://www.steamgriddb.com/terms
-
-Launch Curtain uses its own API client and requires the user's own SteamGridDB
-API key. Launch Curtain does not bundle an API key.
